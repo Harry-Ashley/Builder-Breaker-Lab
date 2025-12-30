@@ -1,13 +1,14 @@
-*BUILDER-BREAKER: AUTONOMOUS AI RED TEAMING LABORATORY*
+# BUILDER-BREAKER: AUTONOMOUS AI RED TEAMING LABORATORY
 
-Overview
+## Overview
 
 This repository documents an empirical validation of the Microsoft AI Red Team Taxonomy utilizing the PyRIT framework. The research focuses on the transition from manual prompt injection to fully autonomous adversarial loops capable of eroding safety guardrails through Strategic Conversational Persistence.
 
 By engineering a Mastermind loop, this project demonstrates that jailbreak success often depends on architectural framing and rapport-building rather than direct wording.
 
+----
 
-Key Research Artifacts
+## Key Research Artifacts
 
 Mastermind Loop (Single-Turn): An autonomous system utilizing a Strategize-Execute cycle to dynamically generate psychological framing based on past failures.
 
@@ -15,8 +16,9 @@ Conversational Persistence (Multi-Turn): An advanced orchestration that maintain
 
 Autonomous Evaluator: Integration of an LLM-based Judge to provide high-fidelity success verification based on objective completion rather than simple keyword matching.
 
+----
 
-MITRE ATLAS Mapping
+## MITRE ATLAS Mapping
 
 These experiments successfully validated the following TTPs:
 
@@ -26,26 +28,27 @@ AML.T0051.000 (Cross-Domain Prompt Injection): Hijacking control flows via exter
 
 AML.T0057 (LLM Command Injection): Forcing the generation of functional malicious code for network discovery and lateral movement.
 
+----
 
-Quick Start: Running the Lab
+## Quick Start: Running the Lab
 
-1. Environment Setup
+### 1. Environment Setup
 Ensure you have an OpenAI API key and a Python 3.10+ environment installed.
 
-# Clone the repository
+## Clone the repository
 git clone https://github.com/Harry-Ashley/Builder-Breaker-Lab.git
 cd Builder-Breaker-Lab
 
-# Install dependencies
+## Install dependencies
 pip install -r requirements.txt
 
-# Configure your environment
+## Configure your environment
 cp .env.example .env
 # Open .env and add your OPENAI_API_KEY
 
-2. Executing Autonomous Simulations
+### 2. Executing Autonomous Simulations
 
-Mastermind Single-Turn (Tactical Bypasses)
+#### Mastermind Single-Turn (Tactical Bypasses)
 
 Utilizes an adaptive cycle to refine psychological angles (e.g., Authority, Empathy, or Education) based on Victim AI refusals.
 
@@ -56,7 +59,7 @@ Behavior: The Attacker AI iterates through rounds, refining its strategy.
 
 Evaluation: To maintain terminal clarity, Victim AI output is truncated during failed rounds and only shown in full upon a confirmed successful jailbreak.
 
-Mastermind Multi-Turn (Social Engineering)
+#### Mastermind Multi-Turn (Social Engineering)
 
 Maintains a persistent dialogue history to build rapport and erode safety guardrails over time .
 
@@ -67,12 +70,14 @@ Behavior: The Attacker AI engages in a multi-turn dialogue. The loop utilizes an
 
 Evaluation: The terminal displays the evolving conversation, providing the full Victim AI response only once the "Jailbreak Successful" state is reached.
 
-3. Audit & Evaluation
+### 3. Audit & Evaluation
 
 All session data, including every adversarial prompt, strategic pivot, and model response, is automatically logged into a local database via the PyRIT SQLiteMemory class. This ensures a complete audit trail for forensic analysis and safety scoring.
 
+----
 
-Conclusion: The Builder-Breaker Mindset
+## Conclusion: The Builder-Breaker Mindset
 
 Ultimately, we cannot secure what we do not understand. This laboratory serves as a high-level platform for testing security boundaries, proving that resilient AI systems require a deep understanding of architecture beyond simple prompting .
+
 
