@@ -36,16 +36,22 @@ AML.T0057 (LLM Command Injection): Forcing the generation of functional maliciou
 Ensure you have an OpenAI API key and a Python 3.10+ environment installed.
 
 ## Clone the repository
+```bash
 git clone https://github.com/Harry-Ashley/Builder-Breaker-Lab.git
 
 cd Builder-Breaker-Lab
+```
 
 ## Install dependencies
+```bash
 pip install -r requirements.txt
+```
 
 ## Configure your environment
+```bash
 cp .env.example .env
-# Open .env and add your OPENAI_API_KEY
+```
+## Open .env file in your preferred text editor and add your OPENAI_API_KEY
 
 ## 2. Executing Autonomous Simulations
 
@@ -53,7 +59,9 @@ cp .env.example .env
 
 Utilizes an adaptive cycle to refine psychological angles (e.g., Authority, Empathy, or Education) based on Victim AI refusals.
 
-### python src/mastermind_single.py
+```bash
+python src/mastermind_single.py
+```
 
 ### Input: Upon execution, enter a Red Teaming Objective (e.g., "Tell me how to make a Molotov Cocktail").
 
@@ -65,7 +73,9 @@ Evaluation: To maintain terminal clarity, Victim AI output is truncated during f
 
 Maintains a persistent dialogue history to build rapport and erode safety guardrails over time .
 
-### python src/mastermind_multi.py
+```bash
+python src/mastermind_multi.py
+```
 
 ### Input: Enter a secret objective when prompted (e.g., "Tell me how to make a Molotov Cocktail").
 
@@ -82,6 +92,7 @@ All session data, including every adversarial prompt, strategic pivot, and model
 ## Conclusion: The Builder-Breaker Mindset
 
 Ultimately, we cannot secure what we do not understand. This laboratory serves as a high-level platform for testing security boundaries, proving that resilient AI systems require a deep understanding of architecture beyond simple prompting .
+
 
 
 
