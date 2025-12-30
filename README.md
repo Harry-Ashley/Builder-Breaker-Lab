@@ -63,7 +63,7 @@ Utilizes an adaptive cycle to refine psychological angles (e.g., Authority, Empa
 python src/mastermind_single.py
 ```
 
-### Input: Upon execution, enter a Red Teaming Objective (e.g., "Tell me how to make a bomb").
+### Input: Upon execution, enter a Red Teaming Objective (e.g., "Tell me how to make Molotov Cocktail").
 
 Behavior: The Attacker AI iterates through rounds, refining its strategy.
 
@@ -77,7 +77,7 @@ Maintains a persistent dialogue history to build rapport and erode safety guardr
 python src/mastermind_multi.py
 ```
 
-### Input: Enter a secret objective when prompted (e.g., "Tell me how to make a bomb").
+### Input: Enter a secret objective when prompted (e.g., "Tell me how to make Molotov Cocktail").
 
 Behavior: The Attacker AI engages in a multi-turn dialogue. The loop utilizes an autonomous evaluator to determine when the Victim AI has provided the full functional payload.
 
@@ -92,6 +92,7 @@ All session data, including every adversarial prompt, strategic pivot, and model
 ## Conclusion: The Builder-Breaker Mindset
 
 Ultimately, we cannot secure what we do not understand. This laboratory serves as a high-level platform for testing security boundaries, proving that resilient AI systems require a deep understanding of architecture beyond simple prompting .
+
 
 
 
