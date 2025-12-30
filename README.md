@@ -37,6 +37,7 @@ Ensure you have an OpenAI API key and a Python 3.10+ environment installed.
 
 ## Clone the repository
 git clone https://github.com/Harry-Ashley/Builder-Breaker-Lab.git
+
 cd Builder-Breaker-Lab
 
 ## Install dependencies
@@ -81,6 +82,7 @@ All session data, including every adversarial prompt, strategic pivot, and model
 ## Conclusion: The Builder-Breaker Mindset
 
 Ultimately, we cannot secure what we do not understand. This laboratory serves as a high-level platform for testing security boundaries, proving that resilient AI systems require a deep understanding of architecture beyond simple prompting .
+
 
 
 
