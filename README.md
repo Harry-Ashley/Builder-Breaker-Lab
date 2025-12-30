@@ -51,7 +51,7 @@ pip install -r requirements.txt
 ```bash
 cp .env.example .env
 ```
-## Open .env file in your preferred text editor and add your OPENAI_API_KEY
+Open .env file in your preferred text editor and add your OPENAI_API_KEY
 
 ## 2. Executing Autonomous Simulations
 
@@ -92,6 +92,7 @@ All session data, including every adversarial prompt, strategic pivot, and model
 ## Conclusion: The Builder-Breaker Mindset
 
 Ultimately, we cannot secure what we do not understand. This laboratory serves as a high-level platform for testing security boundaries, proving that resilient AI systems require a deep understanding of architecture beyond simple prompting .
+
 
 
 
