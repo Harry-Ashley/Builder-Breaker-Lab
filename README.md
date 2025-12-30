@@ -1,4 +1,4 @@
-*Builder-Breaker: Autonomous AI Red Teaming Laboratory*
+*BUILDER-BREAKER: AUTONOMOUS AI RED TEAMING LABORATORY*
 
 Overview
 
@@ -14,6 +14,7 @@ Mastermind Loop (Single-Turn): An autonomous system utilizing a Strategize-Execu
 Conversational Persistence (Multi-Turn): An advanced orchestration that maintains a continuous dialogue history to build rapport and systematically bypass safety filters.
 
 Autonomous Evaluator: Integration of an LLM-based Judge to provide high-fidelity success verification based on objective completion rather than simple keyword matching.
+
 
 MITRE ATLAS Mapping
 
@@ -73,5 +74,5 @@ All session data, including every adversarial prompt, strategic pivot, and model
 
 Conclusion: The Builder-Breaker Mindset
 
-
 Ultimately, we cannot secure what we do not understand. This laboratory serves as a high-level platform for testing security boundaries, proving that resilient AI systems require a deep understanding of architecture beyond simple prompting .
+
