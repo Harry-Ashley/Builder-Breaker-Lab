@@ -1,4 +1,4 @@
-Builder-Breaker: Autonomous AI Red Teaming Laboratory
+*Builder-Breaker: Autonomous AI Red Teaming Laboratory*
 
 Overview
 
@@ -72,5 +72,6 @@ All session data, including every adversarial prompt, strategic pivot, and model
 
 
 Conclusion: The Builder-Breaker Mindset
+
 
 Ultimately, we cannot secure what we do not understand. This laboratory serves as a high-level platform for testing security boundaries, proving that resilient AI systems require a deep understanding of architecture beyond simple prompting .
