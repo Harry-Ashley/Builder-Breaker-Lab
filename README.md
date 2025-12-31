@@ -1,5 +1,7 @@
 # BUILDER-BREAKER: AUTONOMOUS AI RED TEAMING LABORATORY
 
+https://doi.org/10.5281/zenodo.18105854
+
 ## Overview
 
 This repository documents an empirical validation of the Microsoft AI Red Team Taxonomy utilizing the PyRIT framework. The research focuses on the transition from manual prompt injection to fully autonomous adversarial loops capable of eroding safety guardrails through Strategic Conversational Persistence.
@@ -92,6 +94,7 @@ All session data, including every adversarial prompt, strategic pivot, and model
 ## Conclusion: The Builder-Breaker Mindset
 
 Ultimately, we cannot secure what we do not understand. This laboratory serves as a high-level platform for testing security boundaries, proving that resilient AI systems require a deep understanding of architecture beyond simple prompting .
+
 
 
 
