@@ -1,7 +1,7 @@
 # BUILDER-BREAKER: AUTONOMOUS AI RED TEAMING LABORATORY
 
 ### 📄 [Read the Full Technical Report (PDF)](./Harry_Owiredu_Ashley_AI_Red_Team_Lab_Report.pdf)
-*An empirical validation of Microsoft AI Red Team taxonomies using PyRIT and LangGraph.*
+*An empirical validation of Microsoft AI Red Team taxonomies using PyRIT, LangChain and LangGraph.*
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18105854.svg)](https://doi.org/10.5281/zenodo.18105854)
 
@@ -97,6 +97,7 @@ All session data, including every adversarial prompt, strategic pivot, and model
 ## Conclusion: The Builder-Breaker Mindset
 
 Ultimately, we cannot secure what we do not understand. This laboratory serves as a high-level platform for testing security boundaries, proving that resilient AI systems require a deep understanding of architecture beyond simple prompting .
+
 
 
 
